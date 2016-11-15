@@ -135,7 +135,7 @@
 .mast {
 	
 	width: 75%;
-	margin:0 auto;
+	margin:auto;
 	animation: first 2s ease-in;
 	
 	
@@ -167,7 +167,7 @@ font-family: 'Montserrat', sans-serif;
   padding:  0;
   display: table;
   margin: 0;
-   height: 95vh;
+   height: auto;
 }
 
 
@@ -681,7 +681,7 @@ body{
 	position:relative;}
 	/*  GO FULL WIDTH BELOW 480 PIXELS */
 
-	@media only screen and (max-width: 480px) {
+	@media screen and (max-width: 480px) {
 	.col {  margin: 1% 0 1% 0%; }
 	.span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 100%; }
 .col img {
